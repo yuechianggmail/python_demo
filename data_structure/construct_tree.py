@@ -1,3 +1,4 @@
+# Import the required libraries
 # Define a function to construct the tree from the flat list of nodes
 def construct_tree(nodes):
     # Create a dictionary to store nodes by their IDs for easy lookup
