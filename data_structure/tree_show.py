@@ -84,7 +84,7 @@ root = {
 }
 
 
-def show_tree(node, level=0) -> str:
+def show_tree(node, level=1) -> str:
     result = "- " * level + str(node["id"]) + " " + node["name"] + "\n"
     for child in node["children"]:
         result += show_tree(child, level + 1)
