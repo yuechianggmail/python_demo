@@ -1,2 +1,2 @@
 git_demo.txt
-add this in the feature branch
+add this in the main branch
