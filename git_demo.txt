@@ -1,2 +1,2 @@
 git_demo.txt
-add this in the main branch
+add this in merge conflict
