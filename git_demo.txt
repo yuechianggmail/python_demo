@@ -1,2 +1,0 @@
-git_demo.txt
-add this in merge conflict
