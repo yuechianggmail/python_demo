@@ -48,3 +48,29 @@ construct_node(root_node, f)
 print(root_node)
 
 f.close()
+
+
+def BFS(root: object):
+    queue = [root]
+    while len(queue) > 0:
+        node = queue.pop(0)
+        print(node['name'].strip())
+        for child in node['children']:
+            queue.append(child)
+
+
+print('BFS:')
+BFS(root_node)
+
+
+def DFS(root: object) -> None:
+    stack = [root]
+    while stack:
+        node = stack.pop()
+        print(node['id'], node['name'].strip())
+        for child in node['children']:
+            stack.append(child)
+
+
+print("DFS:")
+DFS(root_node)
